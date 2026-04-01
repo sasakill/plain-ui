@@ -1,0 +1,17 @@
+{
+  "name": "plain-ui",
+  "version": "0.1.0",
+  "description": "A minimal design system focused on invisible design — structure over decoration, grayscale only, no border-radius, no shadows.",
+  "author": "sasakill",
+  "license": "MIT",
+  "main": "src/variables.css",
+  "files": [
+    "src/"
+  ],
+  "keywords": [
+    "design-system",
+    "css-variables",
+    "minimal",
+    "grayscale"
+  ]
+}

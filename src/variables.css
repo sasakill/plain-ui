@@ -1,0 +1,55 @@
+/**
+ * Plain Design System — CSS Variables
+ * Version 0.1
+ *
+ * グレースケール・装飾なし・構造優先の最小限デザインシステム。
+ * このファイルを読み込むだけで CSS Variables が使用可能になる。
+ */
+
+:root {
+  /* ─── Color ─── */
+  --color-black:  #000000;
+  --color-900:    #1A1A1A;
+  --color-700:    #4D4D4D;
+  --color-500:    #808080;
+  --color-300:    #B3B3B3;
+  --color-100:    #E6E6E6;
+  --color-50:     #F5F5F5;
+  --color-white:  #FFFFFF;
+
+  /* ─── Typography ─── */
+  --font-serif:  'Noto Serif JP', Georgia, serif;
+  --font-sans:   -apple-system, 'Hiragino Sans', sans-serif;
+  --font-mono:   'DM Mono', 'Courier New', monospace;
+
+  --text-xs:    0.694rem;
+  --text-sm:    0.833rem;
+  --text-base:  1.000rem;
+  --text-md:    1.200rem;
+  --text-lg:    1.440rem;
+  --text-xl:    1.728rem;
+  --text-2xl:   2.074rem;
+  --text-3xl:   2.488rem;
+
+  --leading-tight:  1.4;
+  --leading-base:   1.85;
+  --leading-loose:  2.1;
+
+  --tracking-normal: 0.02em;
+  --tracking-wide:   0.06em;
+
+  /* ─── Spacing (8px grid) ─── */
+  --sp-1:   0.5rem;
+  --sp-2:   1rem;
+  --sp-3:   1.5rem;
+  --sp-4:   2rem;
+  --sp-6:   3rem;
+  --sp-8:   4rem;
+  --sp-12:  6rem;
+  --sp-16:  8rem;
+
+  /* ─── Layout ─── */
+  --max-w-prose: 68ch;
+  --max-w-wide:  90ch;
+  --max-w-full:  1200px;
+}
